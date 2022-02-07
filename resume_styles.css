@@ -1,0 +1,73 @@
+header {
+    text-align: center;
+    color: white;
+    background-color: #09A7A1;
+}
+
+footer {
+    background-color: #09A7A1;
+    height: 30px;
+    bottom: 0;
+}
+
+#software-eng {
+    position: relative;
+    bottom: 10px;
+}
+
+h2 {
+    color: #09A7A1;
+}
+
+#ayooluwa {
+    position: relative;
+    top: 10px
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+a:visited {
+    color: pink;
+}
+
+.job-date {
+    font-style: italic;
+}
+
+hr {
+    width: 20%;
+}
+
+.section-body {
+    text-align: justify;
+}
+
+.bullet-subtitle {
+    font-weight: bold;
+}
+
+li {
+    text-align: justify;
+}
+
+th {
+    text-align: center;
+}
+
+.section-subtitle {
+    color: #301934;
+}
+
+.table-head {
+    font-weight: bold;
+}
+
+body {
+    background-image: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
+}

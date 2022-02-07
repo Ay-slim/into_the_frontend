@@ -1,0 +1,98 @@
+body {
+    background: url("images/zat_rana_article_pic.jpeg");
+    background-size: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(0, 128, 128, 0.3);
+    color: #fff;
+}
+
+.logo {
+    font-size: 50px;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu a:hover {
+    color: orangered;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.hamburger_hack {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+p {
+    color: pink;
+    font-size: 40px;
+}
+
+.center-text {
+    margin-left: 15%;
+    margin-top: 15%;
+    text-align: justify;
+}
+
+.Feynman {
+    font-size: small;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .menu li:hover {
+        background-color: #4c9e9e;
+        border-radius: 5px;
+        transition: 0.3s ease;
+    }
+
+    .menu li + li {
+        margin-top: 12px;
+    }
+
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+
+    .hamburger_hack {
+        display: block;
+    }
+
+    .center-text {
+        margin-left: 5%;
+        margin-top: 15%;
+        text-align: justify;
+    }
+}
