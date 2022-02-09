@@ -1,0 +1,123 @@
+<!-- Link to exercise instructions: https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form -->
+
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="build_a_surver_form.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <main>
+        <h1 id="title">
+          Build a Survey Form
+        </h1>
+    
+        <p id="description">
+          This is a submission for the second FCC responsive web design project.
+        </p>
+    
+        <form id="survey-form">
+            <div>
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            
+            <div>
+                <label for="email" id="email-label">Email</label>
+                <input type="email" id="email" placeholder="Please provide your email" required>
+            </div>
+          
+            <div>
+                <label for="number" id="number-label">Number</label>
+                <input type="number" id="number" min=5 max=15 placeholder="Enter a number between 5 and 15">
+            </div>
+            
+            <div>
+                <label for="dropdown" id="dropdown-label">How would you like to die?</label>
+                <select id="dropdown">
+                <option value="in-sleep"> In Your Sleep </option>
+                <option value="car-crash"> Car Crash </option>
+                <option value="bullet-to-head"> Bullet To the Head </option>
+                <option value="random"> Random </option>
+                </select>
+            </div>
+    
+            <div>
+                <fieldset name="gender" id="radio-group-gender">
+                <legend>How do you identify?</legend>
+                <div>
+                    <label for="male">
+                    <input id="male" value="imale" name="gender" type="radio"> Male </input>
+                </div>
+                <div>
+                    <label for="female">
+                    <input id="female" value="female" type="radio" name="gender"> Female </input>
+                </div>
+                <div>
+                    <label for="other">
+                    <input id="other" value="other" type="radio" name="gender"> Other </input>
+                </div>
+                <div>
+                    <label for="undisclosed">
+                    <input id="undisclosed" value="undisclosed" type="radio" name="gender"> Undisclosed </input>
+                </div>
+                </fieldset>
+            </div>
+    
+            <div>
+                <fieldset name="sociality" id="radio-group-social">
+                <legend>Which are you? (You can select only one)</legend>
+                <div>
+                    <label for="introvert">
+                    <input id="introvert" value="introvert" name="sociality" type="radio"> Introvert </input>
+                </div>
+                <div>
+                    <label for="extrovert">
+                    <input id="extrovert" value="extrovert" type="radio" name="sociality"> Extrovert </input>
+                </div>
+                <div>
+                    <label for="ambivert">
+                    <input id="ambivert" value="ambivert" type="radio" name="sociality"> Ambivert </input>
+                </div>
+                </fieldset>
+            </div>
+    
+            <div>
+                <fieldset id="checkboxes">
+                <legend> Which animals do you love? (you can select more than one) </legend>
+                
+                    <div>
+                        <label for="dogs"></label>
+                        <input type="checkbox" id="dogs" value="dog">Dogs</input>
+                    </div>
+    
+                    <div>
+                        <label for="cats"></label>
+                        <input type="checkbox" id="cats" value="cat">Cats</input>
+                    </div>
+    
+                    <div>
+                        <label for="squirrels"></label>
+                        <input type="checkbox" id="squirrels" value="squirrel">Squirrels</input>
+                    </div>
+                    <div>
+                        <label for="goats"></label>
+                        <input type="checkbox" id="goats" value="goat">Goats</input>
+                    </div>
+                </fieldset>
+            </div>
+    
+            <div>
+                <label for= "text-area" name="additional-comments" id="additional-comments">Additional Comments</label>
+                <textarea id="text-area" rows="5" cols="36"> </textarea>
+            </div>
+      
+            <button id="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
+

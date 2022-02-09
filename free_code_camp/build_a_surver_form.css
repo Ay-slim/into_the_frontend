@@ -1,0 +1,22 @@
+input {
+    margin-left: 2.2em;
+}
+
+#number {
+    width: 16%;
+    margin-left: 1.1em;
+}
+  
+#email {
+    width: 16%;
+}
+
+#checkboxes {
+    width: 30%;
+}
+  
+fieldset {
+    width: 30%;
+}
+  
+  
